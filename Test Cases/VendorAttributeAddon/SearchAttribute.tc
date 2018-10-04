@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>test1</name>
+   <name>SearchAttribute</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>c61fadaf-ef8a-49b5-9d01-c612879618e4</testCaseGuid>
+   <testCaseGuid>bd2c144d-9327-4e6d-8239-e6c62c469253</testCaseGuid>
 </TestCaseEntity>

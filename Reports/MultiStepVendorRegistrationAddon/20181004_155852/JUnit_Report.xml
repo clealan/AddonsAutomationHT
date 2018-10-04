@@ -1,0 +1,428 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="MultiStepVendorRegistrationAddon" time="44" tests="1" failures="1" errors="0">
+   <testsuite name="MultiStepVendorRegistrationAddon" tests="1" failures="1" errors="0" time="44" timestamp="2018-10-04 15:58:53" hostname="User - DESKTOP-5HHLDMN" id="Test Suites/MultiStepVendorRegistrationAddon">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\User\\Katalon Studio\\addonTestAutomation\\Reports\\MultiStepVendorRegistrationAddon\\20181004_155852"/>
+         <property name="logFiles" value="C:\\Users\\User\\Katalon Studio\\addonTestAutomation\\Reports\\MultiStepVendorRegistrationAddon\\20181004_155852\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\User\\Katalon Studio\\addonTestAutomation\\Reports\\MultiStepVendorRegistrationAddon\\20181004_155852\\1538639977574.png"/>
+         <property name="hostName" value="User - DESKTOP-5HHLDMN"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.7.1.1"/>
+         <property name="browser" value="Chrome 69.0.3497.100"/>
+         <property name="hostAddress" value="192.168.8.100"/>
+         <property name="sessionId" value="7192f22bb49c8777709d3a9c4731996f"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/MultiStepVendorRegistrationAddon/CreateMultiStep" classname="Test Cases/MultiStepVendorRegistrationAddon/CreateMultiStep" status="PASSED">
+         <system-out><![CDATA[2018-10-04 15:58:54 - [TEST_CASE][PASSED] - Test Cases/MultiStepVendorRegistrationAddon/CreateMultiStep: Test Cases/MultiStepVendorRegistrationAddon/CreateMultiStep
+
+2018-10-04 15:58:54 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-10-04 15:58:58 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-10-04 15:58:58 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-10-04 15:58:59 - [MESSAGE][PASSED] - Current window maximized
+
+2018-10-04 15:58:59 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://46.101.72.110/admin_stage/admin/index/index/key/f39c9f07e3d497e1058c0f0c4cde40a9cfd0294f3e0c9f5ce7f4fbb4e2054d9d/' successfully
+
+2018-10-04 15:59:03 - [MESSAGE][PASSED] - Navigate to 'http://46.101.72.110/admin_stage/admin/index/index/key/f39c9f07e3d497e1058c0f0c4cde40a9cfd0294f3e0c9f5ce7f4fbb4e2054d9d/' successfully
+
+2018-10-04 15:59:03 - [TEST_STEP][PASSED] - setText: Text 'adminStage2' is set on object 'Object Repository/Page_Magento Admin/input_Username_loginusername'
+
+2018-10-04 15:59:03 - [MESSAGE][PASSED] - Text 'adminStage2' is set on object 'Object Repository/Page_Magento Admin/input_Username_loginusername'
+
+2018-10-04 15:59:03 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/Page_Magento Admin/input_Password_loginpassword'
+
+2018-10-04 15:59:03 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Magento Admin/input_Password_loginpassword'
+
+2018-10-04 15:59:03 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Magento Admin/span_Sign in' is clicked on
+
+2018-10-04 15:59:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Magento Admin/span_Sign in' is clicked on
+
+2018-10-04 15:59:05 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Dashboard  Magento Admin/a_Marketplace' is clicked on
+
+2018-10-04 15:59:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Dashboard  Magento Admin/a_Marketplace' is clicked on
+
+2018-10-04 15:59:05 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-10-04 15:59:08 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-10-04 15:59:08 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Dashboard  Magento Admin/a_Multi-step Registration' is clicked on
+
+2018-10-04 15:59:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Dashboard  Magento Admin/a_Multi-step Registration' is clicked on
+
+2018-10-04 15:59:10 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-10-04 15:59:11 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-10-04 15:59:11 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Manage Vendor Attributes  Mana/button_Add Registration Step' is clicked on
+
+2018-10-04 15:59:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Manage Vendor Attributes  Mana/button_Add Registration Step' is clicked on
+
+2018-10-04 15:59:13 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-10-04 15:59:14 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-10-04 15:59:14 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Manage Steps  Magento Admin/button_Add Option' is clicked on
+
+2018-10-04 15:59:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Manage Steps  Magento Admin/button_Add Option' is clicked on
+
+2018-10-04 15:59:14 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-10-04 15:59:15 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-10-04 15:59:15 - [TEST_STEP][PASSED] - setText: Text '4' is set on object 'Object Repository/Page_Manage Steps  Magento Admin/input_Delete_stepsoptionslabel'
+
+2018-10-04 15:59:16 - [MESSAGE][PASSED] - Text '4' is set on object 'Object Repository/Page_Manage Steps  Magento Admin/input_Delete_stepsoptionslabel'
+
+2018-10-04 15:59:16 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-10-04 15:59:17 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-10-04 15:59:17 - [TEST_STEP][PASSED] - setText: Text 'Test Info' is set on object 'Object Repository/Page_Manage Steps  Magento Admin/input_Delete_stepsoptionslabel_10'
+
+2018-10-04 15:59:17 - [MESSAGE][PASSED] - Text 'Test Info' is set on object 'Object Repository/Page_Manage Steps  Magento Admin/input_Delete_stepsoptionslabel_10'
+
+2018-10-04 15:59:17 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-10-04 15:59:18 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-10-04 15:59:18 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Manage Steps  Magento Admin/button_Save Step' is clicked on
+
+2018-10-04 15:59:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Manage Steps  Magento Admin/button_Save Step' is clicked on
+
+2018-10-04 15:59:18 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-10-04 15:59:21 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-10-04 15:59:21 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-10-04 15:59:22 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/MultiStepVendorRegistrationAddon/DeleteMultiStep" classname="Test Cases/MultiStepVendorRegistrationAddon/DeleteMultiStep" status="FAILED">
+         <failure type="FAILED" message="(Stack trace: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_Manage Vendor Attributes  Mana/button_Add Registration Step' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element &lt;button id=&quot;registrationstep&quot; title=&quot;Add Registration Step&quot; type=&quot;button&quot; class=&quot;action-default scalable primary&quot; onclick=&quot;setLocation('http://46.101.72.110/index.php/admin_stage/csmultistep/attributes/newStep/key/4cfd8d555b98b15d51f4800733cdd1588ab71ee8ffe19122c032ac763f19bddd/')&quot; data-ui-id=&quot;ced-csvendorattribute-listing-registrationstep-button&quot;>...&lt;/button> is not clickable at point (1171, 179). Other element would receive the click: &lt;span>...&lt;/span>
+  (Session info: chrome=69.0.3497.100)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-5HHLDMN', ip: '192.168.8.100', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\User\AppData\Local...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 69.0.3497.100, webStorageEnabled: true}
+Session ID: 7192f22bb49c8777709d3a9c4731996f)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at Script1537366860016.run(Script1537366860016.groovy:34)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1538639932079.run(TempTestSuite1538639932079.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)"/>
+         <system-out><![CDATA[2018-10-04 15:59:22 - [TEST_CASE][FAILED] - Test Cases/MultiStepVendorRegistrationAddon/DeleteMultiStep: Test Cases/MultiStepVendorRegistrationAddon/DeleteMultiStep FAILED because (of) (Stack trace: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_Manage Vendor Attributes  Mana/button_Add Registration Step' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <button id="registrationstep" title="Add Registration Step" type="button" class="action-default scalable primary" onclick="setLocation('http://46.101.72.110/index.php/admin_stage/csmultistep/attributes/newStep/key/4cfd8d555b98b15d51f4800733cdd1588ab71ee8ffe19122c032ac763f19bddd/')" data-ui-id="ced-csvendorattribute-listing-registrationstep-button">...</button> is not clickable at point (1171, 179). Other element would receive the click: <span>...</span>
+  (Session info: chrome=69.0.3497.100)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-5HHLDMN', ip: '192.168.8.100', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\User\AppData\Local...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 69.0.3497.100, webStorageEnabled: true}
+Session ID: 7192f22bb49c8777709d3a9c4731996f)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at Script1537366860016.run(Script1537366860016.groovy:34)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1538639932079.run(TempTestSuite1538639932079.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)
+
+2018-10-04 15:59:22 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-10-04 15:59:24 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-10-04 15:59:24 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-10-04 15:59:25 - [MESSAGE][PASSED] - Current window maximized
+
+2018-10-04 15:59:25 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://46.101.72.110/admin_stage/admin/index/index/key/f39c9f07e3d497e1058c0f0c4cde40a9cfd0294f3e0c9f5ce7f4fbb4e2054d9d/' successfully
+
+2018-10-04 15:59:29 - [MESSAGE][PASSED] - Navigate to 'http://46.101.72.110/admin_stage/admin/index/index/key/f39c9f07e3d497e1058c0f0c4cde40a9cfd0294f3e0c9f5ce7f4fbb4e2054d9d/' successfully
+
+2018-10-04 15:59:29 - [TEST_STEP][PASSED] - setText: Text 'adminStage2' is set on object 'Object Repository/Page_Magento Admin/input_Username_loginusername'
+
+2018-10-04 15:59:29 - [MESSAGE][PASSED] - Text 'adminStage2' is set on object 'Object Repository/Page_Magento Admin/input_Username_loginusername'
+
+2018-10-04 15:59:29 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/Page_Magento Admin/input_Password_loginpassword'
+
+2018-10-04 15:59:29 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Magento Admin/input_Password_loginpassword'
+
+2018-10-04 15:59:29 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Magento Admin/span_Sign in' is clicked on
+
+2018-10-04 15:59:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Magento Admin/span_Sign in' is clicked on
+
+2018-10-04 15:59:32 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Dashboard  Magento Admin/a_Marketplace' is clicked on
+
+2018-10-04 15:59:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Dashboard  Magento Admin/a_Marketplace' is clicked on
+
+2018-10-04 15:59:32 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-10-04 15:59:35 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-10-04 15:59:35 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Dashboard  Magento Admin/a_Multi-step Registration' is clicked on
+
+2018-10-04 15:59:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Dashboard  Magento Admin/a_Multi-step Registration' is clicked on
+
+2018-10-04 15:59:37 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Page_Manage Vendor Attributes  Mana/button_Add Registration Step' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <button id="registrationstep" title="Add Registration Step" type="button" class="action-default scalable primary" onclick="setLocation('http://46.101.72.110/index.php/admin_stage/csmultistep/attributes/newStep/key/4cfd8d555b98b15d51f4800733cdd1588ab71ee8ffe19122c032ac763f19bddd/')" data-ui-id="ced-csvendorattribute-listing-registrationstep-button">...</button> is not clickable at point (1171, 179). Other element would receive the click: <span>...</span>
+  (Session info: chrome=69.0.3497.100)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-5HHLDMN', ip: '192.168.8.100', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\User\AppData\Local...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 69.0.3497.100, webStorageEnabled: true}
+Session ID: 7192f22bb49c8777709d3a9c4731996f)
+
+2018-10-04 15:59:37 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Page_Manage Vendor Attributes  Mana/button_Add Registration Step' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <button id="registrationstep" title="Add Registration Step" type="button" class="action-default scalable primary" onclick="setLocation('http://46.101.72.110/index.php/admin_stage/csmultistep/attributes/newStep/key/4cfd8d555b98b15d51f4800733cdd1588ab71ee8ffe19122c032ac763f19bddd/')" data-ui-id="ced-csvendorattribute-listing-registrationstep-button">...</button> is not clickable at point (1171, 179). Other element would receive the click: <span>...</span>
+  (Session info: chrome=69.0.3497.100)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-5HHLDMN', ip: '192.168.8.100', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\User\AppData\Local...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 69.0.3497.100, webStorageEnabled: true}
+Session ID: 7192f22bb49c8777709d3a9c4731996f)
+[[ATTACHMENT|C:\\Users\\User\\Katalon Studio\\addonTestAutomation\\Reports\\MultiStepVendorRegistrationAddon\\20181004_155852\\1538639977574.png]]]]></system-out>
+         <system-err><![CDATA[2018-10-04 15:59:22 - [TEST_CASE][FAILED] - Test Cases/MultiStepVendorRegistrationAddon/DeleteMultiStep: Test Cases/MultiStepVendorRegistrationAddon/DeleteMultiStep FAILED because (of) (Stack trace: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_Manage Vendor Attributes  Mana/button_Add Registration Step' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <button id="registrationstep" title="Add Registration Step" type="button" class="action-default scalable primary" onclick="setLocation('http://46.101.72.110/index.php/admin_stage/csmultistep/attributes/newStep/key/4cfd8d555b98b15d51f4800733cdd1588ab71ee8ffe19122c032ac763f19bddd/')" data-ui-id="ced-csvendorattribute-listing-registrationstep-button">...</button> is not clickable at point (1171, 179). Other element would receive the click: <span>...</span>
+  (Session info: chrome=69.0.3497.100)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-5HHLDMN', ip: '192.168.8.100', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\User\AppData\Local...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 69.0.3497.100, webStorageEnabled: true}
+Session ID: 7192f22bb49c8777709d3a9c4731996f)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at Script1537366860016.run(Script1537366860016.groovy:34)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1538639932079.run(TempTestSuite1538639932079.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-10-04 15:58:53 - [TEST_SUITE][FAILED] - MultiStepVendorRegistrationAddon: Test Cases/MultiStepVendorRegistrationAddon/DeleteMultiStep FAILED because (of) (Stack trace: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_Manage Vendor Attributes  Mana/button_Add Registration Step' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <button id="registrationstep" title="Add Registration Step" type="button" class="action-default scalable primary" onclick="setLocation('http://46.101.72.110/index.php/admin_stage/csmultistep/attributes/newStep/key/4cfd8d555b98b15d51f4800733cdd1588ab71ee8ffe19122c032ac763f19bddd/')" data-ui-id="ced-csvendorattribute-listing-registrationstep-button">...</button> is not clickable at point (1171, 179). Other element would receive the click: <span>...</span>
+  (Session info: chrome=69.0.3497.100)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-5HHLDMN', ip: '192.168.8.100', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\User\AppData\Local...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 69.0.3497.100, webStorageEnabled: true}
+Session ID: 7192f22bb49c8777709d3a9c4731996f)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at Script1537366860016.run(Script1537366860016.groovy:34)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1538639932079.run(TempTestSuite1538639932079.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)]]></system-out>
+      <system-err><![CDATA[2018-10-04 15:58:53 - [TEST_SUITE][FAILED] - MultiStepVendorRegistrationAddon: Test Cases/MultiStepVendorRegistrationAddon/DeleteMultiStep FAILED because (of) (Stack trace: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_Manage Vendor Attributes  Mana/button_Add Registration Step' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <button id="registrationstep" title="Add Registration Step" type="button" class="action-default scalable primary" onclick="setLocation('http://46.101.72.110/index.php/admin_stage/csmultistep/attributes/newStep/key/4cfd8d555b98b15d51f4800733cdd1588ab71ee8ffe19122c032ac763f19bddd/')" data-ui-id="ced-csvendorattribute-listing-registrationstep-button">...</button> is not clickable at point (1171, 179). Other element would receive the click: <span>...</span>
+  (Session info: chrome=69.0.3497.100)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-5HHLDMN', ip: '192.168.8.100', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\User\AppData\Local...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 69.0.3497.100, webStorageEnabled: true}
+Session ID: 7192f22bb49c8777709d3a9c4731996f)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at Script1537366860016.run(Script1537366860016.groovy:34)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1538639932079.run(TempTestSuite1538639932079.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)]]></system-err>
+   </testsuite>
+</testsuites>

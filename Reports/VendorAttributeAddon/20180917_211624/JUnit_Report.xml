@@ -1,0 +1,383 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="VendorAttributeAddon" time="111" tests="4" failures="0" errors="0">
+   <testsuite name="VendorAttributeAddon" tests="4" failures="0" errors="0" time="111" timestamp="2018-09-17 21:16:26" hostname="User - DESKTOP-5HHLDMN" id="Test Suites/VendorAttributeAddon">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\User\\Katalon Studio\\addonTestAutomation\\Reports\\VendorAttributeAddon\\20180917_211624"/>
+         <property name="logFiles" value="C:\\Users\\User\\Katalon Studio\\addonTestAutomation\\Reports\\VendorAttributeAddon\\20180917_211624\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="User - DESKTOP-5HHLDMN"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.7.0.1"/>
+         <property name="browser" value="Chrome 68.0.3440.106"/>
+         <property name="hostAddress" value="192.168.8.100"/>
+         <property name="sessionId" value="a62165d3a42cf27104b5caa146a10913"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/VendorAttributeAddon/AddNewAttribute" classname="Test Cases/VendorAttributeAddon/AddNewAttribute" status="PASSED">
+         <system-out><![CDATA[2018-09-17 21:16:26 - [TEST_CASE][PASSED] - Test Cases/VendorAttributeAddon/AddNewAttribute: Test Cases/VendorAttributeAddon/AddNewAttribute
+
+2018-09-17 21:16:27 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-09-17 21:16:30 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-09-17 21:16:30 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-09-17 21:16:31 - [MESSAGE][PASSED] - Current window maximized
+
+2018-09-17 21:16:31 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://46.101.72.110/admin_stage/admin/index/index/key/83f348aef1ab1267025c4f6ebf479c17e1de9cd81a89bb9a3a50f6ae7f861365/' successfully
+
+2018-09-17 21:16:36 - [MESSAGE][PASSED] - Navigate to 'http://46.101.72.110/admin_stage/admin/index/index/key/83f348aef1ab1267025c4f6ebf479c17e1de9cd81a89bb9a3a50f6ae7f861365/' successfully
+
+2018-09-17 21:16:36 - [TEST_STEP][PASSED] - setText: Text 'adminStage2' is set on object 'Object Repository/Page_Magento Admin/input_Username_loginusername'
+
+2018-09-17 21:16:36 - [MESSAGE][PASSED] - Text 'adminStage2' is set on object 'Object Repository/Page_Magento Admin/input_Username_loginusername'
+
+2018-09-17 21:16:36 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/Page_Magento Admin/input_Password_loginpassword'
+
+2018-09-17 21:16:36 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Magento Admin/input_Password_loginpassword'
+
+2018-09-17 21:16:36 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Magento Admin/span_Sign in' is clicked on
+
+2018-09-17 21:16:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Magento Admin/span_Sign in' is clicked on
+
+2018-09-17 21:16:39 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Dashboard  Magento Admin/a_Marketplace' is clicked on
+
+2018-09-17 21:16:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Dashboard  Magento Admin/a_Marketplace' is clicked on
+
+2018-09-17 21:16:39 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-09-17 21:16:40 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-09-17 21:16:40 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Dashboard  Magento Admin/a_Vendor Attributes' is clicked on
+
+2018-09-17 21:16:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Dashboard  Magento Admin/a_Vendor Attributes' is clicked on
+
+2018-09-17 21:16:43 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-09-17 21:16:44 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-09-17 21:16:44 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Manage Vendor Attributes  Mana/button_Add New Attribute' is clicked on
+
+2018-09-17 21:16:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Manage Vendor Attributes  Mana/button_Add New Attribute' is clicked on
+
+2018-09-17 21:16:48 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-09-17 21:16:49 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-09-17 21:16:49 - [TEST_STEP][PASSED] - setText: Text 'testattrib125' is set on object 'Object Repository/Page_New Vendor Attribute  Product/input_Default Label_frontend_l'
+
+2018-09-17 21:16:49 - [MESSAGE][PASSED] - Text 'testattrib125' is set on object 'Object Repository/Page_New Vendor Attribute  Product/input_Default Label_frontend_l'
+
+2018-09-17 21:16:49 - [TEST_STEP][PASSED] - rightClick: Object: 'Object Repository/Page_New Vendor Attribute  Product/input_Attribute Code_attribute' is right clicked on
+
+2018-09-17 21:16:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_New Vendor Attribute  Product/input_Attribute Code_attribute' is right clicked on
+
+2018-09-17 21:16:49 - [TEST_STEP][PASSED] - setText: Text 'testattrib125' is set on object 'Object Repository/Page_New Vendor Attribute  Product/input_Attribute Code_attribute'
+
+2018-09-17 21:16:49 - [MESSAGE][PASSED] - Text 'testattrib125' is set on object 'Object Repository/Page_New Vendor Attribute  Product/input_Attribute Code_attribute'
+
+2018-09-17 21:16:49 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'textarea' are selected in object 'Object Repository/Page_New Vendor Attribute  Product/select_Text FieldText AreaDate'  using regular expression
+
+2018-09-17 21:16:50 - [MESSAGE][PASSED] - All options with value 'textarea' are selected in object 'Object Repository/Page_New Vendor Attribute  Product/select_Text FieldText AreaDate'  using regular expression
+
+2018-09-17 21:16:50 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '1' are selected in object 'Object Repository/Page_New Vendor Attribute  Product/select_YesNo'  using regular expression
+
+2018-09-17 21:16:50 - [MESSAGE][PASSED] - All options with value '1' are selected in object 'Object Repository/Page_New Vendor Attribute  Product/select_YesNo'  using regular expression
+
+2018-09-17 21:16:50 - [TEST_STEP][PASSED] - setText: Text 'test' is set on object 'Object Repository/Page_New Vendor Attribute  Product/textarea_Default Value_default'
+
+2018-09-17 21:16:50 - [MESSAGE][PASSED] - Text 'test' is set on object 'Object Repository/Page_New Vendor Attribute  Product/textarea_Default Value_default'
+
+2018-09-17 21:16:50 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '1' are selected in object 'Object Repository/Page_New Vendor Attribute  Product/select_YesNo_1'  using regular expression
+
+2018-09-17 21:16:50 - [MESSAGE][PASSED] - All options with value '1' are selected in object 'Object Repository/Page_New Vendor Attribute  Product/select_YesNo_1'  using regular expression
+
+2018-09-17 21:16:50 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'validate-number' are selected in object 'Object Repository/Page_New Vendor Attribute  Product/select_NoneDecimal NumberInteg'  using regular expression
+
+2018-09-17 21:16:51 - [MESSAGE][PASSED] - All options with value 'validate-number' are selected in object 'Object Repository/Page_New Vendor Attribute  Product/select_NoneDecimal NumberInteg'  using regular expression
+
+2018-09-17 21:16:51 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '1' are selected in object 'Object Repository/Page_New Vendor Attribute  Product/select_YesNo_2'  using regular expression
+
+2018-09-17 21:16:51 - [MESSAGE][PASSED] - All options with value '1' are selected in object 'Object Repository/Page_New Vendor Attribute  Product/select_YesNo_2'  using regular expression
+
+2018-09-17 21:16:51 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '1' are selected in object 'Object Repository/Page_New Vendor Attribute  Product/select_YesNo_3'  using regular expression
+
+2018-09-17 21:16:51 - [MESSAGE][PASSED] - All options with value '1' are selected in object 'Object Repository/Page_New Vendor Attribute  Product/select_YesNo_3'  using regular expression
+
+2018-09-17 21:16:51 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '1' are selected in object 'Object Repository/Page_New Vendor Attribute  Product/select_YesNo_4'  using regular expression
+
+2018-09-17 21:16:51 - [MESSAGE][PASSED] - All options with value '1' are selected in object 'Object Repository/Page_New Vendor Attribute  Product/select_YesNo_4'  using regular expression
+
+2018-09-17 21:16:51 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '1' are selected in object 'Object Repository/Page_New Vendor Attribute  Product/select_YesNo_5'  using regular expression
+
+2018-09-17 21:16:51 - [MESSAGE][PASSED] - All options with value '1' are selected in object 'Object Repository/Page_New Vendor Attribute  Product/select_YesNo_5'  using regular expression
+
+2018-09-17 21:16:51 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_New Vendor Attribute  Product/button_Save Attribute' is clicked on
+
+2018-09-17 21:16:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_New Vendor Attribute  Product/button_Save Attribute' is clicked on
+
+2018-09-17 21:16:51 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-09-17 21:16:52 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-09-17 21:16:52 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Page_Manage Vendor Attributes  Mana/div_You saved the vendor attri' is present
+
+2018-09-17 21:16:53 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2018-09-17 21:16:55 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Manage Vendor Attributes  Mana/div_You saved the vendor attri' is present
+
+2018-09-17 21:16:55 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-09-17 21:16:55 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/VendorAttributeAddon/SearchAttribute" classname="Test Cases/VendorAttributeAddon/SearchAttribute" status="PASSED">
+         <system-out><![CDATA[2018-09-17 21:16:55 - [TEST_CASE][PASSED] - Test Cases/VendorAttributeAddon/SearchAttribute: Test Cases/VendorAttributeAddon/SearchAttribute
+
+2018-09-17 21:16:56 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-09-17 21:16:58 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-09-17 21:16:58 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-09-17 21:16:59 - [MESSAGE][PASSED] - Current window maximized
+
+2018-09-17 21:16:59 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://46.101.72.110/admin_stage/admin/index/index/key/6179d2611c845079ec2ae3e70da4e0efdabf7e6cb1d29321cea6461333372126/' successfully
+
+2018-09-17 21:17:03 - [MESSAGE][PASSED] - Navigate to 'http://46.101.72.110/admin_stage/admin/index/index/key/6179d2611c845079ec2ae3e70da4e0efdabf7e6cb1d29321cea6461333372126/' successfully
+
+2018-09-17 21:17:03 - [TEST_STEP][PASSED] - setText: Text 'adminStage2' is set on object 'Object Repository/Page_Magento Admin/input_Username_loginusername (1)'
+
+2018-09-17 21:17:03 - [MESSAGE][PASSED] - Text 'adminStage2' is set on object 'Object Repository/Page_Magento Admin/input_Username_loginusername (1)'
+
+2018-09-17 21:17:03 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/Page_Magento Admin/input_Password_loginpassword (1)'
+
+2018-09-17 21:17:04 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Magento Admin/input_Password_loginpassword (1)'
+
+2018-09-17 21:17:04 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Magento Admin/button_Sign in' is clicked on
+
+2018-09-17 21:17:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Magento Admin/button_Sign in' is clicked on
+
+2018-09-17 21:17:07 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-09-17 21:17:08 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-09-17 21:17:08 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Dashboard  Magento Admin/a_Marketplace' is clicked on
+
+2018-09-17 21:17:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Dashboard  Magento Admin/a_Marketplace' is clicked on
+
+2018-09-17 21:17:09 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-09-17 21:17:12 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-09-17 21:17:12 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Dashboard  Magento Admin/a_Vendor Attributes' is clicked on
+
+2018-09-17 21:17:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Dashboard  Magento Admin/a_Vendor Attributes' is clicked on
+
+2018-09-17 21:17:14 - [TEST_STEP][PASSED] - setText: Text 'testattrib125' is set on object 'Object Repository/Page_Manage Vendor Attributes  Mana/input_Step Number_attribute_co'
+
+2018-09-17 21:17:14 - [MESSAGE][PASSED] - Text 'testattrib125' is set on object 'Object Repository/Page_Manage Vendor Attributes  Mana/input_Step Number_attribute_co'
+
+2018-09-17 21:17:14 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Manage Vendor Attributes  Mana/button_Search' is clicked on
+
+2018-09-17 21:17:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Manage Vendor Attributes  Mana/button_Search' is clicked on
+
+2018-09-17 21:17:16 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Page_Manage Vendor Attributes  Mana/div_1' is present
+
+2018-09-17 21:17:16 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2018-09-17 21:17:16 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Manage Vendor Attributes  Mana/div_1' is present
+
+2018-09-17 21:17:16 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-09-17 21:17:17 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/VendorAttributeAddon/EditAttribute" classname="Test Cases/VendorAttributeAddon/EditAttribute" status="PASSED">
+         <system-out><![CDATA[2018-09-17 21:17:17 - [TEST_CASE][PASSED] - Test Cases/VendorAttributeAddon/EditAttribute: Test Cases/VendorAttributeAddon/EditAttribute
+
+2018-09-17 21:17:17 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-09-17 21:17:19 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-09-17 21:17:19 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-09-17 21:17:20 - [MESSAGE][PASSED] - Current window maximized
+
+2018-09-17 21:17:20 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://46.101.72.110/admin_stage/admin/index/index/key/6179d2611c845079ec2ae3e70da4e0efdabf7e6cb1d29321cea6461333372126/' successfully
+
+2018-09-17 21:17:24 - [MESSAGE][PASSED] - Navigate to 'http://46.101.72.110/admin_stage/admin/index/index/key/6179d2611c845079ec2ae3e70da4e0efdabf7e6cb1d29321cea6461333372126/' successfully
+
+2018-09-17 21:17:24 - [TEST_STEP][PASSED] - setText: Text 'adminStage2' is set on object 'Object Repository/Page_Magento Admin/input_Username_loginusername (1)'
+
+2018-09-17 21:17:25 - [MESSAGE][PASSED] - Text 'adminStage2' is set on object 'Object Repository/Page_Magento Admin/input_Username_loginusername (1)'
+
+2018-09-17 21:17:25 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/Page_Magento Admin/input_Password_loginpassword (1)'
+
+2018-09-17 21:17:25 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Magento Admin/input_Password_loginpassword (1)'
+
+2018-09-17 21:17:25 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Magento Admin/button_Sign in' is clicked on
+
+2018-09-17 21:17:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Magento Admin/button_Sign in' is clicked on
+
+2018-09-17 21:17:28 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-09-17 21:17:29 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-09-17 21:17:29 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Dashboard  Magento Admin/a_Marketplace' is clicked on
+
+2018-09-17 21:17:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Dashboard  Magento Admin/a_Marketplace' is clicked on
+
+2018-09-17 21:17:29 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-09-17 21:17:32 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-09-17 21:17:32 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Dashboard  Magento Admin/a_Vendor Attributes' is clicked on
+
+2018-09-17 21:17:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Dashboard  Magento Admin/a_Vendor Attributes' is clicked on
+
+2018-09-17 21:17:35 - [TEST_STEP][PASSED] - setText: Text 'testattrib125' is set on object 'Object Repository/Page_Manage Vendor Attributes  Mana/input_Step Number_attribute_co'
+
+2018-09-17 21:17:36 - [MESSAGE][PASSED] - Text 'testattrib125' is set on object 'Object Repository/Page_Manage Vendor Attributes  Mana/input_Step Number_attribute_co'
+
+2018-09-17 21:17:36 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Manage Vendor Attributes  Mana/button_Search' is clicked on
+
+2018-09-17 21:17:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Manage Vendor Attributes  Mana/button_Search' is clicked on
+
+2018-09-17 21:17:37 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Page_Manage Vendor Attributes  Mana/div_1' is present
+
+2018-09-17 21:17:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2018-09-17 21:17:38 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Manage Vendor Attributes  Mana/div_1' is present
+
+2018-09-17 21:17:38 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Manage Vendor Attributes  Mana/td_testattrib125' is clicked on
+
+2018-09-17 21:17:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Manage Vendor Attributes  Mana/td_testattrib125' is clicked on
+
+2018-09-17 21:17:40 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '0' are selected in object 'Object Repository/Page_testattrib125  Product Attribu/select_YesNo'  using regular expression
+
+2018-09-17 21:17:40 - [MESSAGE][PASSED] - All options with value '0' are selected in object 'Object Repository/Page_testattrib125  Product Attribu/select_YesNo'  using regular expression
+
+2018-09-17 21:17:40 - [TEST_STEP][PASSED] - setText: Text '' is set on object 'Object Repository/Page_testattrib125  Product Attribu/textarea_test'
+
+2018-09-17 21:17:40 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Page_testattrib125  Product Attribu/textarea_test'
+
+2018-09-17 21:17:40 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '0' are selected in object 'Object Repository/Page_testattrib125  Product Attribu/select_YesNo_1'  using regular expression
+
+2018-09-17 21:17:41 - [MESSAGE][PASSED] - All options with value '0' are selected in object 'Object Repository/Page_testattrib125  Product Attribu/select_YesNo_1'  using regular expression
+
+2018-09-17 21:17:41 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '0' are selected in object 'Object Repository/Page_testattrib125  Product Attribu/select_YesNo_2'  using regular expression
+
+2018-09-17 21:17:41 - [MESSAGE][PASSED] - All options with value '0' are selected in object 'Object Repository/Page_testattrib125  Product Attribu/select_YesNo_2'  using regular expression
+
+2018-09-17 21:17:41 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '0' are selected in object 'Object Repository/Page_testattrib125  Product Attribu/select_YesNo_3'  using regular expression
+
+2018-09-17 21:17:41 - [MESSAGE][PASSED] - All options with value '0' are selected in object 'Object Repository/Page_testattrib125  Product Attribu/select_YesNo_3'  using regular expression
+
+2018-09-17 21:17:41 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '0' are selected in object 'Object Repository/Page_testattrib125  Product Attribu/select_YesNo_4'  using regular expression
+
+2018-09-17 21:17:41 - [MESSAGE][PASSED] - All options with value '0' are selected in object 'Object Repository/Page_testattrib125  Product Attribu/select_YesNo_4'  using regular expression
+
+2018-09-17 21:17:41 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_testattrib125  Product Attribu/button_Save Attribute' is clicked on
+
+2018-09-17 21:17:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_testattrib125  Product Attribu/button_Save Attribute' is clicked on
+
+2018-09-17 21:17:41 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-09-17 21:17:42 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-09-17 21:17:42 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Page_Manage Vendor Attributes  Mana/div_You saved the vendor attri' is present
+
+2018-09-17 21:17:42 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2018-09-17 21:17:45 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Manage Vendor Attributes  Mana/div_You saved the vendor attri' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/VendorAttributeAddon/DeleteAttribute" classname="Test Cases/VendorAttributeAddon/DeleteAttribute" status="PASSED">
+         <system-out><![CDATA[2018-09-17 21:17:45 - [TEST_CASE][PASSED] - Test Cases/VendorAttributeAddon/DeleteAttribute: Test Cases/VendorAttributeAddon/DeleteAttribute
+
+2018-09-17 21:17:45 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-09-17 21:17:45 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-09-17 21:17:48 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-09-17 21:17:48 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-09-17 21:17:49 - [MESSAGE][PASSED] - Current window maximized
+
+2018-09-17 21:17:49 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://46.101.72.110/admin_stage/admin/index/index/key/6179d2611c845079ec2ae3e70da4e0efdabf7e6cb1d29321cea6461333372126/' successfully
+
+2018-09-17 21:17:56 - [MESSAGE][PASSED] - Navigate to 'http://46.101.72.110/admin_stage/admin/index/index/key/6179d2611c845079ec2ae3e70da4e0efdabf7e6cb1d29321cea6461333372126/' successfully
+
+2018-09-17 21:17:56 - [TEST_STEP][PASSED] - setText: Text 'adminStage2' is set on object 'Object Repository/Page_Magento Admin/input_Username_loginusername (1)'
+
+2018-09-17 21:17:57 - [MESSAGE][PASSED] - Text 'adminStage2' is set on object 'Object Repository/Page_Magento Admin/input_Username_loginusername (1)'
+
+2018-09-17 21:17:57 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/Page_Magento Admin/input_Password_loginpassword (1)'
+
+2018-09-17 21:17:57 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Magento Admin/input_Password_loginpassword (1)'
+
+2018-09-17 21:17:57 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Magento Admin/button_Sign in' is clicked on
+
+2018-09-17 21:18:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Magento Admin/button_Sign in' is clicked on
+
+2018-09-17 21:18:00 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-09-17 21:18:01 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-09-17 21:18:01 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Dashboard  Magento Admin/a_Marketplace' is clicked on
+
+2018-09-17 21:18:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Dashboard  Magento Admin/a_Marketplace' is clicked on
+
+2018-09-17 21:18:01 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-09-17 21:18:04 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-09-17 21:18:04 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Dashboard  Magento Admin/a_Vendor Attributes' is clicked on
+
+2018-09-17 21:18:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Dashboard  Magento Admin/a_Vendor Attributes' is clicked on
+
+2018-09-17 21:18:07 - [TEST_STEP][PASSED] - setText: Text 'testattrib125' is set on object 'Object Repository/Page_Manage Vendor Attributes  Mana/input_Step Number_attribute_co (1)'
+
+2018-09-17 21:18:07 - [MESSAGE][PASSED] - Text 'testattrib125' is set on object 'Object Repository/Page_Manage Vendor Attributes  Mana/input_Step Number_attribute_co (1)'
+
+2018-09-17 21:18:07 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Manage Vendor Attributes  Mana/button_Search (1)' is clicked on
+
+2018-09-17 21:18:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Manage Vendor Attributes  Mana/button_Search (1)' is clicked on
+
+2018-09-17 21:18:09 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Page_Manage Vendor Attributes  Mana/div_1 (1)' is present
+
+2018-09-17 21:18:09 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2018-09-17 21:18:09 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Manage Vendor Attributes  Mana/div_1 (1)' is present
+
+2018-09-17 21:18:09 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Manage Vendor Attributes  Mana/td_testattrib125 (1)' is clicked on
+
+2018-09-17 21:18:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Manage Vendor Attributes  Mana/td_testattrib125 (1)' is clicked on
+
+2018-09-17 21:18:11 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-09-17 21:18:14 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-09-17 21:18:14 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_testattrib125  Product Attribu/button_Delete Attribute' is clicked on
+
+2018-09-17 21:18:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_testattrib125  Product Attribu/button_Delete Attribute' is clicked on
+
+2018-09-17 21:18:14 - [TEST_STEP][PASSED] - focus: Object: 'Object Repository/Page_testattrib125  Product Attribu/button_OK' is focused
+
+2018-09-17 21:18:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_testattrib125  Product Attribu/button_OK' is focused
+
+2018-09-17 21:18:14 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_testattrib125  Product Attribu/button_OK' is clicked on
+
+2018-09-17 21:18:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_testattrib125  Product Attribu/button_OK' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-09-17 21:16:26 - [TEST_SUITE][PASSED] - VendorAttributeAddon: Test Cases/VendorAttributeAddon/DeleteAttribute]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

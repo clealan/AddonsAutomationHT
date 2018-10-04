@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="MultiStepVendorRegistrationAddon" time="57" tests="2" failures="0" errors="0">
+   <testsuite name="MultiStepVendorRegistrationAddon" tests="2" failures="0" errors="0" time="57" timestamp="2018-10-01 07:58:10" hostname="User - DESKTOP-5HHLDMN" id="Test Suites/MultiStepVendorRegistrationAddon">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\User\\Katalon Studio\\addonTestAutomation\\Reports\\MultiStepVendorRegistrationAddon\\20181001_075809"/>
+         <property name="logFiles" value="C:\\Users\\User\\Katalon Studio\\addonTestAutomation\\Reports\\MultiStepVendorRegistrationAddon\\20181001_075809\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="User - DESKTOP-5HHLDMN"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.7.1.1"/>
+         <property name="browser" value="Chrome 69.0.3497.100"/>
+         <property name="hostAddress" value="192.168.8.102"/>
+         <property name="sessionId" value="1187b3fcdba53f5c592e682b56ef6d0d"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/MultiStepVendorRegistrationAddon/CreateMultiStep" classname="Test Cases/MultiStepVendorRegistrationAddon/CreateMultiStep" status="PASSED">
+         <system-out><![CDATA[2018-10-01 07:58:11 - [TEST_CASE][PASSED] - Test Cases/MultiStepVendorRegistrationAddon/CreateMultiStep: Test Cases/MultiStepVendorRegistrationAddon/CreateMultiStep
+
+2018-10-01 07:58:11 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-10-01 07:58:14 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-10-01 07:58:14 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-10-01 07:58:15 - [MESSAGE][PASSED] - Current window maximized
+
+2018-10-01 07:58:15 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://46.101.72.110/admin_stage/admin/index/index/key/f39c9f07e3d497e1058c0f0c4cde40a9cfd0294f3e0c9f5ce7f4fbb4e2054d9d/' successfully
+
+2018-10-01 07:58:21 - [MESSAGE][PASSED] - Navigate to 'http://46.101.72.110/admin_stage/admin/index/index/key/f39c9f07e3d497e1058c0f0c4cde40a9cfd0294f3e0c9f5ce7f4fbb4e2054d9d/' successfully
+
+2018-10-01 07:58:21 - [TEST_STEP][PASSED] - setText: Text 'adminStage2' is set on object 'Object Repository/Page_Magento Admin/input_Username_loginusername'
+
+2018-10-01 07:58:21 - [MESSAGE][PASSED] - Text 'adminStage2' is set on object 'Object Repository/Page_Magento Admin/input_Username_loginusername'
+
+2018-10-01 07:58:21 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/Page_Magento Admin/input_Password_loginpassword'
+
+2018-10-01 07:58:21 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Magento Admin/input_Password_loginpassword'
+
+2018-10-01 07:58:21 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Magento Admin/span_Sign in' is clicked on
+
+2018-10-01 07:58:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Magento Admin/span_Sign in' is clicked on
+
+2018-10-01 07:58:24 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Dashboard  Magento Admin/a_Marketplace' is clicked on
+
+2018-10-01 07:58:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Dashboard  Magento Admin/a_Marketplace' is clicked on
+
+2018-10-01 07:58:24 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-10-01 07:58:27 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-10-01 07:58:27 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Dashboard  Magento Admin/a_Multi-step Registration' is clicked on
+
+2018-10-01 07:58:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Dashboard  Magento Admin/a_Multi-step Registration' is clicked on
+
+2018-10-01 07:58:29 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-10-01 07:58:30 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-10-01 07:58:30 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Manage Vendor Attributes  Mana/button_Add Registration Step' is clicked on
+
+2018-10-01 07:58:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Manage Vendor Attributes  Mana/button_Add Registration Step' is clicked on
+
+2018-10-01 07:58:32 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-10-01 07:58:33 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-10-01 07:58:33 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Manage Steps  Magento Admin/button_Add Option' is clicked on
+
+2018-10-01 07:58:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Manage Steps  Magento Admin/button_Add Option' is clicked on
+
+2018-10-01 07:58:33 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-10-01 07:58:34 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-10-01 07:58:34 - [TEST_STEP][PASSED] - setText: Text '4' is set on object 'Object Repository/Page_Manage Steps  Magento Admin/input_Delete_stepsoptionslabel'
+
+2018-10-01 07:58:34 - [MESSAGE][PASSED] - Text '4' is set on object 'Object Repository/Page_Manage Steps  Magento Admin/input_Delete_stepsoptionslabel'
+
+2018-10-01 07:58:34 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-10-01 07:58:35 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-10-01 07:58:35 - [TEST_STEP][PASSED] - setText: Text 'Test Info' is set on object 'Object Repository/Page_Manage Steps  Magento Admin/input_Delete_stepsoptionslabel_10'
+
+2018-10-01 07:58:35 - [MESSAGE][PASSED] - Text 'Test Info' is set on object 'Object Repository/Page_Manage Steps  Magento Admin/input_Delete_stepsoptionslabel_10'
+
+2018-10-01 07:58:35 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-10-01 07:58:36 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-10-01 07:58:36 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Manage Steps  Magento Admin/button_Save Step' is clicked on
+
+2018-10-01 07:58:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Manage Steps  Magento Admin/button_Save Step' is clicked on
+
+2018-10-01 07:58:37 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-10-01 07:58:40 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-10-01 07:58:40 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-10-01 07:58:40 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/MultiStepVendorRegistrationAddon/DeleteMultiStep" classname="Test Cases/MultiStepVendorRegistrationAddon/DeleteMultiStep" status="PASSED">
+         <system-out><![CDATA[2018-10-01 07:58:40 - [TEST_CASE][PASSED] - Test Cases/MultiStepVendorRegistrationAddon/DeleteMultiStep: Test Cases/MultiStepVendorRegistrationAddon/DeleteMultiStep
+
+2018-10-01 07:58:41 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-10-01 07:58:42 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-10-01 07:58:42 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-10-01 07:58:44 - [MESSAGE][PASSED] - Current window maximized
+
+2018-10-01 07:58:44 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://46.101.72.110/admin_stage/admin/index/index/key/f39c9f07e3d497e1058c0f0c4cde40a9cfd0294f3e0c9f5ce7f4fbb4e2054d9d/' successfully
+
+2018-10-01 07:58:48 - [MESSAGE][PASSED] - Navigate to 'http://46.101.72.110/admin_stage/admin/index/index/key/f39c9f07e3d497e1058c0f0c4cde40a9cfd0294f3e0c9f5ce7f4fbb4e2054d9d/' successfully
+
+2018-10-01 07:58:48 - [TEST_STEP][PASSED] - setText: Text 'adminStage2' is set on object 'Object Repository/Page_Magento Admin/input_Username_loginusername'
+
+2018-10-01 07:58:48 - [MESSAGE][PASSED] - Text 'adminStage2' is set on object 'Object Repository/Page_Magento Admin/input_Username_loginusername'
+
+2018-10-01 07:58:48 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/Page_Magento Admin/input_Password_loginpassword'
+
+2018-10-01 07:58:49 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Magento Admin/input_Password_loginpassword'
+
+2018-10-01 07:58:49 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Magento Admin/span_Sign in' is clicked on
+
+2018-10-01 07:58:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Magento Admin/span_Sign in' is clicked on
+
+2018-10-01 07:58:51 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Dashboard  Magento Admin/a_Marketplace' is clicked on
+
+2018-10-01 07:58:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Dashboard  Magento Admin/a_Marketplace' is clicked on
+
+2018-10-01 07:58:51 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-10-01 07:58:54 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-10-01 07:58:54 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Dashboard  Magento Admin/a_Multi-step Registration' is clicked on
+
+2018-10-01 07:58:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Dashboard  Magento Admin/a_Multi-step Registration' is clicked on
+
+2018-10-01 07:58:56 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Manage Vendor Attributes  Mana/button_Add Registration Step' is clicked on
+
+2018-10-01 07:58:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Manage Vendor Attributes  Mana/button_Add Registration Step' is clicked on
+
+2018-10-01 07:58:58 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-10-01 07:59:01 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-10-01 07:59:01 - [TEST_STEP][PASSED] - focus: Object: 'Object Repository/Page_Manage Steps  Magento Admin/button_Delete' is focused
+
+2018-10-01 07:59:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Manage Steps  Magento Admin/button_Delete' is focused
+
+2018-10-01 07:59:01 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Manage Steps  Magento Admin/button_Delete' is clicked on
+
+2018-10-01 07:59:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Manage Steps  Magento Admin/button_Delete' is clicked on
+
+2018-10-01 07:59:01 - [TEST_STEP][PASSED] - acceptAlert: Alert accepted
+
+2018-10-01 07:59:01 - [MESSAGE][PASSED] - Alert accepted
+
+2018-10-01 07:59:01 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-10-01 07:59:04 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-10-01 07:59:04 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Manage Steps  Magento Admin/button_Save Step' is clicked on
+
+2018-10-01 07:59:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Manage Steps  Magento Admin/button_Save Step' is clicked on
+
+2018-10-01 07:59:04 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-10-01 07:59:07 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-10-01 07:59:07 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-10-01 07:59:08 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-10-01 07:58:10 - [TEST_SUITE][PASSED] - MultiStepVendorRegistrationAddon: Test Cases/MultiStepVendorRegistrationAddon/DeleteMultiStep]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
